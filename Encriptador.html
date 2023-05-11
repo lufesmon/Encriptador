@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<link rel="shortcut icon" href="icon.ico">
+		<title>Encriptador - Luis Fernando</title>
+        <link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="encriptador.css">
+	
+	</head>
+	<script type="text/javascript" src="javascript.js"></script> 
+	
+	
+	<body>
+		<div class="seccion0">
+			<img class="logo" src="Vector.svg" alt = "Logo de Alura">
+		</div>
+		<div class="seccion1">
+			<form>
+				<textarea id="Mensaje"  rows="10" cols="" placeholder="Ingrese Texto Aqui"></textarea>
+					
+				<p class="a">&#9786; Solo letras minusculasy sin acentos</p>
+				<input class="bEstilo" type="button" value="Encriptar" onclick="Encriptar()">
+				<input class="bEstilo" type="button" value="Descencriptar*" onclick="Descencriptar()">
+			</form>	
+		</div>
+		<div class="seccion2">
+			<div id="sinmensaje">
+				<img class="search" src="Analizando.svg" alt = "Imagen Ilustrativa">			
+				<p class="nmfe">Ningun mensaje fue encontrado</p>
+				<p class="mIndicacion">Ingresa el texto que quieres encriptar o desencriptar</p>
+				
+			</div>
+			
+			<div id="conmensaje">
+				<p>Este es tu mensaje</p>
+				<p id="output"></p>
+				<input class="bEstilo" type="button" value="Copiar texto" onclick="copiar('output')">
+			</div>
+		</div>
+	
+		<!--<div class="contenido">
+			
+			<div class="seccion1">
+				<img class="logo" src="Vector.svg" alt = "Logo de Alura">
+				<form>
+					<textarea id="Mensaje"  rows="10" cols="50">Ingresa Texto</textarea>
+					
+					<p>Solo letras minusculasy sin acentos</p>
+					<input class="bEstilo" type="button" value="Encriptar" onclick="Encriptar()">
+					<input class="bEstilo" type="button" value="Descencriptar*" onclick="Descencriptar()">
+				</form>	
+			</div>	
+			<div class="seccion2">	
+					<img class="search" src="Analizando.svg" alt = "Imagen Ilustrativa">
+					<p id="output">Ningun mensaje fue encontrado</p>
+					<p>Ingresa el texto que quieres encriptar o desencriptar</p>
+					<input class="bEstilo" type="button" value="Copiar texto" onclick="copiar('output')">
+
+			</div>	
+			
+		</div>-->
+	</body>
+</html>

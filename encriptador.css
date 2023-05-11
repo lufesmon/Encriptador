@@ -1,0 +1,187 @@
+html{
+	background: #F3F5FC;
+
+	height: 100%;
+	
+	
+
+}
+body{
+	background: #F3F5FC;
+	width: 940px;	
+	position: relative;
+	margin: 0 auto;
+	min-height: 100%;
+	padding: 0;
+	
+}
+div{
+	border-radius: 10px;
+	display: inline-block;
+	text-align: center;
+	top: 1px;
+	/*height: 100vh;*/
+	vertical-align: top;
+}
+.logo{
+	margin: 20px;
+}
+.seccion0{
+	
+	width:132px;
+	/*background: #EA2A06;*/
+		
+}
+.seccion1{
+	padding-top:100px;
+	width:450px;
+	/*background: #EAEE06;*/
+	
+}
+
+
+#Mensaje, #output{
+	
+	font-family: 'Inter';
+	font-style: normal;
+	line-height: 150%;
+	font-size: 32px;
+	color: #0A3871;
+	background: rgba(0, 0, 0, 0.0);
+	border-style:none;
+	
+
+/* identical to box height, or 48px */
+
+
+/* Dark blue/dark-blue-300 */
+
+color: #0A3871;
+	
+}
+textarea:focus{
+	outline: none !important;
+
+}
+.a{
+	padding: 20px 0 20px 0;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	color: #495057;
+	text-align:left;
+}
+
+.seccion2{
+	
+	
+	height: 550px;
+	margin: 25px 0 25px 0;
+	top: 40px;
+	
+	padding-top:100px;
+	width:350px;
+	/*background: #0657EE;*/
+	background: #FFFFFF;
+	/* shadow */
+
+	box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+	border-radius: 32px;
+	
+}
+.search{
+	width:80%;
+	margin: 0 0 80px 0;
+}
+.nmfe{
+	padding: 0 20px 20px 20px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	/* or 29px */
+	/* Gray/gray-500 */
+	color: #343A40;
+}
+.mIndicacion{
+	padding: 0 20px 0 20px;
+	
+}
+
+#conmensaje{
+	display:none;
+}
+#sinmensaje{
+	display:block;
+}
+#output{
+	padding:0 10px 0 10px;
+}
+
+.bEstilo{
+	width: 45%;
+	padding: 15px 0;
+	font-size: 12px;
+	font-weight: bold;
+	background: none;
+	color: #0A3871;
+	border: 1px solid #0A3871;
+	border-radius: 24px;
+	transition: 1s all;
+	cursor:pointer;
+}
+.bEstilo:hover{
+	background: #0A3871;
+	color:#ffffff;
+	transform. scale(1.2);
+}
+
+::placeolder{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 150%;
+	color: #0A3871;
+}
+
+@media screen and (max-width:820px){
+	body, .seccion1, .seccion2{
+		
+		width: 100%;
+
+	}
+	.a{
+		padding-left: 20px;
+		font-weight: 800;
+		font-size: 15px;
+
+	}
+	.bEstilo{
+		
+		width: 80%;
+		margin: 0 0 20px 0;
+		padding: 25px 0;
+		font-size: 22px;
+
+	}
+	
+	.search{
+		display:none;
+	}
+	.seccion2{	
+	padding: 50px 0 50px 0;
+	width: 90%;
+	margin:0 5% 10% 5%;
+	
+	height: auto;
+} 
+
+.nmfe{
+
+	font-size: 34px;
+	/* or 29px */
+	/* Gray/gray-500 */
+	color: #343A40;
+}
